@@ -1,0 +1,10 @@
+import java.util.Random;
+
+public class RollingDice {
+    public static void main(String[] args) {
+        Random Number= new Random();
+        int x= Number.nextInt(6);
+
+        System.out.println("You rolled a: " + x);
+    }
+}
